@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="script.module.sqlparse" name="sqlparse" version="0.5.1" provider-name="Team Roketto">
+	<requires>
+		<import addon="xbmc.python" version="3.0.0"/>
+	</requires>
+	<extension point="xbmc.python.module" library="resources/lib/sqlparse"/>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en_GB">A non-validating SQL parser</summary>
+		<description lang="en_GB">The sqlparse module provides three simple functions on module level to achieve some common tasks when working with SQL statements.</description>
+		<platform>all</platform>
+		<license>BSD 3-Clause License</license>
+		<assets>
+			<icon>icon.png</icon>
+		</assets>
+	</extension>
+</addon>
